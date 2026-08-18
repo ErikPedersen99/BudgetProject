@@ -1,8 +1,8 @@
 namespace Domain.Entities;
 
-public class ReacurringTransaction
+public class RecurringTransaction
 {
-    public Guid ReacurringTransactionId {get;set;}
+    public Guid RecurringTransactionId   {get;set;}
     public Guid UserId {get;set;}
     public Guid? CategoryId {get;set;}
     public string Name {get;set;} = null!;

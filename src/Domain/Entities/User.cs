@@ -16,7 +16,7 @@ public class User
     public ICollection<Budget>? Budgets {get;set;}
     public ICollection<Category>? Categories {get;set;}
     public ICollection<CategoryRule>? CategoryRules {get;set;}
-    public ICollection<ReacurringTransaction>? ReacurringTransactions {get;set;}
+    public ICollection<RecurringTransaction>? RecurringTransactions {get;set;}
     public ICollection<Transaction>? Transactions {get;set;}
 
 }
