@@ -15,7 +15,7 @@ public class Transaction
     public Guid? CategoryId {get;set;}
     public DateTime CreatedAt {get;set;}
 
-    public BankAccount? bankAccount {get;set;}
+    public BankAccount? BankAccount {get;set;}
     public Category? Category {get;set;}
     public User? User {get;set;}
     public Merchant? Merchant {get;set;}
