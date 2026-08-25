@@ -1,4 +1,4 @@
-using System.Transactions;
+using Domain.Entities;
 
 namespace Domain.Interfaces;
 

@@ -3,7 +3,7 @@ namespace Domain.Entities;
 public enum TransactionType
 {
     Income,
-    Expence
+    Expense
 }
 
 public enum CategoryType

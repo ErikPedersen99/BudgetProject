@@ -4,9 +4,9 @@ using Domain.Entities;
 
 namespace Infrastructure;
 
-public class BudgetDbContext : DbContext
+public class AppDbContext : DbContext
 {
-    public BudgetDbContext(DbContextOptions<BudgetDbContext> options): base(options) { }
+    public AppDbContext(DbContextOptions<AppDbContext> options): base(options) { }
 
     public DbSet<User> Users  {get;set;}
     public DbSet<BankAccount> BankAccounts {get;set;}
